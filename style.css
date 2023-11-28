@@ -138,12 +138,16 @@ div.axis_name {
     cursor: pointer;
 }
 .button:hover, .button:focus { background: #1687e0; }
-.stronglyAgree { background: #1b5e20; }
-.stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
+.stronglyAgree { background: hsl(124, 55%, 24%); }
+.stronglyAgree:hover, .stronglyAgree:focus { background: hsl(125, 56%, 19%); }
 .agree { background: #4caf50; }
 .agree:hover, .agree:focus { background: #29942e; }
-.neutral { background: #949494; }
-.neutral:hover, .neutral:focus { background: #656565; }
+.slightlyAgree { background: hsl(122, 39%, 69%); }
+.slightlyAgree:hover, .slightlyAgree:focus { background: hsl(123, 57%, 57%); }
+/* .neutral { background: #949494; }
+.neutral:hover, .neutral:focus { background: #656565; } */
+.slightlyDisagree { background: hsl(4, 90%, 78%); }
+.slightlyDisagree:hover, .slightlyDisagree:focus { background: hsl(4, 78%, 67%); }
 .disagree { background: #f44336; }
 .disagree:hover, .disagree:focus { background: #d6271a; }
 .stronglyDisagree { background: #b71c1c; }
