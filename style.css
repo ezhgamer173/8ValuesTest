@@ -142,12 +142,12 @@ div.axis_name {
 .stronglyAgree:hover, .stronglyAgree:focus { background: hsl(125, 56%, 19%); }
 .agree { background: #4caf50; }
 .agree:hover, .agree:focus { background: #29942e; }
-.slightlyAgree { background: hsl(122, 39%, 69%); }
-.slightlyAgree:hover, .slightlyAgree:focus { background: hsl(123, 57%, 57%); }
+.slightlyAgree { background: hsl(122, 39%, 69%) !important; }
+.slightlyAgree:hover, .slightlyAgree:focus { background: hsl(123, 57%, 57%) !important; }
 /* .neutral { background: #949494; }
 .neutral:hover, .neutral:focus { background: #656565; } */
-.slightlyDisagree { background: hsl(4, 90%, 78%); }
-.slightlyDisagree:hover, .slightlyDisagree:focus { background: hsl(4, 78%, 67%); }
+.slightlyDisagree { background: hsl(4, 90%, 78%) !important; }
+.slightlyDisagree:hover, .slightlyDisagree:focus { background: hsl(4, 78%, 67%) !important; }
 .disagree { background: #f44336; }
 .disagree:hover, .disagree:focus { background: #d6271a; }
 .stronglyDisagree { background: #b71c1c; }
